@@ -111,6 +111,18 @@ export default {
               name: 'welcome',
               icon: 'smile',
               component: './Welcome',
+            },            {
+
+              path: '/forms',
+              name: 'Forms',
+              icon: 'smile',
+              routes:[
+                {
+                  path:'/forms/create',
+                  name: 'Create Form',
+                  component: './CreateForm'
+                }
+              ]
             },
             {
               path: '/admin',
