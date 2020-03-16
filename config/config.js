@@ -119,7 +119,7 @@ export default {
               routes:[
                 {
                   path:'/forms/create',
-                  name: 'Create Form',
+                  name: 'Create Form Fields',
                   component: './CreateForm'
                 }
               ]
